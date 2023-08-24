@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body{
+    background: #151515;
+}
+
+.webgl{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.section{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-inline: 10px;
+}
+
+h1{
+    color: rgb(159, 254, 252);
+    font-size: 100px;
+    font-weight: 300;
+}
+
+section:nth-child(odd){
+    justify-content: flex-end;
+}
